@@ -1,0 +1,217 @@
+ <!DOCTYPE html>
+ <html lang="en" dir="ltr">
+   <head>
+    <title>Practica 2</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+   </head>
+   <body>
+     <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+            </div>
+            <div class="col py-1">
+              <h4 class="text-white">Fidget.io</h4>
+              <p class="text-muted">Fidget.io is the perfect playground if you're looking for some palce to just have fun and fidget around. Go crazy and discover as many interactive buttons you can!</p>
+            </div>
+            <div class="col">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+            <strong>Fidget.io</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!--------------Welcome Section Start-------------->
+    <section id="welcome-section">
+      <div class="container">
+        <h1 class="welcome-title" align="center">
+          <b> Welcome to the fidget.io game</b>
+        </h1>
+        <!--------------Popover Start-------------->
+        <div class="container">
+          <a tabindex="0" class="btn btn-lg btn-danger" align="center" role="button"
+          data-bs-toggle="popover" data-bs-trigger="focus" title="Welcome"
+          data-bs-content="Welcome to fidget.io, a playground for fidget fanatics.
+          Check out how to beat the game below!">Click for info</a>
+        </div>
+        <!--------------Popover End-------------->
+        <!--------------Carousel Start-------------->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Step 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Step 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Step 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://i.ibb.co/kqRXbdM/cleo-vermij-d-Fwtw-XRQ2y-Q-unsplash.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Click, click, click</h5>
+                <p>Click on everything that looks clickable.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://i.ibb.co/yN8D1VG/sangga-rima-roman-selia-Y4-EQtlf-OLm4-unsplash.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Gather hints</h5>
+                <p>Try clicking on the button below. See any hidden hints?.</p>
+                <a href="#" class="btn btn-lg btn-primary"> Click here</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://i.ibb.co/QCcYjHf/felix-mittermeier-n-Ajil1z3e-Lk-unsplash.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Submit your answer</h5>
+                <p>Gather all the hints and enter them in the search bar to win!</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!--------------Carousel End-------------->
+      </div>
+    </section>
+    <!--------------Welcome Section Ends-------------->
+
+
+    <section class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light">Game buttons</h1>
+          <p class="lead text-muted">Here is a small collection of the buttons you will find in the full game. Don't be shy, try them out! Be sure to click on EVERYTHING you find. Hints could be hidden anywhere.</p>
+          <p>
+            <a href="#" class="btn btn-primary my-2" aria-disabled="true">Sample 1</a>
+            <a href="#" class="btn btn-secondary my-2" aria-disabled="true">Sample 2</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4" >
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+            <image href="https://i.ibb.co/bPXKTxD/matrix.jpg"> </image>
+          </svg>
+
+          <h2>Game 1</h2>
+          <p>In this first game, you will have to figure out the first hint in order to complete the full equation.</p>
+          <p><a class="btn btn-secondary" href="#">Start game &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+            <image href="https://i.ibb.co/6W2sHrJ/random-dcode.png"> </image>
+          </svg>
+
+          <h2>Game 2</h2>
+          <p>Unlock this game by completing the first one. Victory is one step closer now.</p>
+          <p><a class="btn btn-secondary" href="#">Start game &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+            <image href="https://i.ibb.co/q92S6fy/photo-1553481187-be93c21490a9.jpg"></image>
+          </svg>
+          <h2>Game 2</h2>
+          <p>The last game is always the hardest one. Use your reasoning and obesrvational skills to crack the code.</p>
+          <p><a class="btn btn-secondary" href="#">Start game &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+     </div>
+
+
+     <section class="py-5 text-center container">
+       <div class="row py-lg-5 bg-dark">
+         <div class="col-lg-6 col-md-8 mx-auto">
+           <h1 class="fw-light white">Current leaderboards</h1>
+           <p class="lead text-muted">Beat the game in record time to make it to the leaderboards. The top 10 players of every week compete for a PS5 on a face-to-face challenge.</p>
+         </div>
+       </div>
+
+       <div class="container table">
+         <table class="table table-hover">
+           <thead>
+             <tr class="table-dark">
+               <th scope="col">#</th>
+               <th scope="col">Username</th>
+               <th scope="col">Time</th>
+               <th scope="col">Score</th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr class="table-info">
+               <th scope="row">1</th>
+               <td>@Mark</td>
+               <td>03:54</td>
+               <td>2222</td>
+             </tr>
+             <tr class="table-warning">
+               <th scope="row">2</th>
+               <td>@Jacob</td>
+               <td>04:02</td>
+               <td>1985</td>
+             </tr>
+             <tr class="table-danger">
+               <th scope="row">3</th>
+               <td>@Larry</td>
+               <td>04:05</td>
+               <td>1974</td>
+             </tr>
+             <tr>
+               <th scope="row">4</th>
+               <td>@Peter</td>
+               <td>04:25</td>
+               <td>1861</td>
+             </tr>
+           </tbody>
+         </table>
+       </div>
+     </section>
+
+     <footer class="footer mt-auto py-3 bg-dark">
+       <div class="container">
+         <span class="text-muted light">Fidget.io      Created by Alfonso Gutiérrez</span>
+       </div>
+     </footer>
+
+
+
+
+
+
+
+    <script>
+      var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+      })
+    </script>
+
+   </body>
+ </html>

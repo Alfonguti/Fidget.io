@@ -1,0 +1,49 @@
+.btn.btn-lg.btn-danger {
+  margin: 5%;
+}
+
+.row.py-lg-5.bg-dark{
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  margin-top: 5em;
+  left: 50%;
+ }
+
+ .container.table{
+   margin-top: 5%;
+ }
+
+.fw-light.white{
+  color: white;
+}
+
+.welcome-title {
+  margin: 5%;
+}
+
+.carousel-item {
+  height: 32rem;
+  background: #777;
+  color: white;
+  position: relative;
+}
+
+.container {
+  text-align: center;
+}
+
+.overlay-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  opacity 0.5;
+}
+
+img {
+  opacity: 0.5;
+}
